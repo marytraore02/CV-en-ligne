@@ -21,7 +21,7 @@ body{
 .left-section{
     grid-column: span 2;
     height: 100%;
-    background-color: #00324A;
+    background-color: #2A2927;
 }
 .right-section{
     grid-column: span 5;
@@ -52,7 +52,7 @@ body{
 .name{
     font-size: 2rem;
     color: white;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.2rem 0;
@@ -60,8 +60,8 @@ body{
 
 .career{
     font-size: 1.2rem;
-    color: #94D9EA;
-    text-align: center;
+    color: white;
+    text-align: left;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding-bottom: 1rem;
@@ -69,7 +69,7 @@ body{
 
 .main-title{
     font-size: 1.8rem;
-    text-transform: uppercase;
+    
     letter-spacing: 1px;
     color: #f7f7f7ec;
     padding-top: 3rem;
@@ -89,7 +89,7 @@ body{
 .contact-info ul li i{
     padding-right: 1rem;
     font-size: 1.2rem;
-    color: #2D9CDB;
+    color: white;
 }
 
 .skills-section ul{
@@ -104,7 +104,7 @@ body{
 .progress-bar{
     width: 100%;
     height: .4rem;
-    background-color: #2f81ed5b;
+    background-color: #524E4E;
     position: relative;
     border-radius: 12px;
 }
@@ -112,26 +112,8 @@ body{
     height: 100%;
     position: absolute;
     left: 0;
-    background-color: #2D9CDB;
+    background-color: white;
     border-radius: 12px;
-}
-.js-progress{
-    width: 70%;
-}
-.ps-progress{
-    width: 90%;
-}
-.j-progress{
-    width: 85%;
-}
-.c-progress{
-    width: 40%;
-}
-.n-progress{
-    width: 63%;
-}
-.w-progress{
-    width: 78%;
 }
 
 .bam-progress{
@@ -162,6 +144,11 @@ body{
     padding: .4rem 0;
 }
 
+.infoperso{
+    color: #ccc;
+    /*padding: .4rem 0;*/
+}
+
 .references-section li{
     color: #ccc;
     padding: .2rem 0;
@@ -174,17 +161,19 @@ body{
 
 .right-main-content{
     padding: 2rem 3rem;
+
 }
 
 
 .right-title{
     letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #2F80ED;
+    font-size: 1.8em;
+    color: black;
     margin-bottom: 1.2rem;
     position: relative;
 }
 
+/*
 .right-title::after{
     content: "";
     position: absolute;
@@ -196,42 +185,59 @@ body{
     top: 50%;
     transform: translateY(-50%);
 }
+*/
 
 .para{
     line-height: 1.6rem;
     color: #718096;
-    font-size: 1.1rem;
+    font-size: 1em;
+}
+
+.comp{
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1em;
+    padding-left: 100px;
 }
 
 .sect{
     padding-bottom: 2rem;
+
 }
 
 .timeline{
+    margin-bottom: 1.2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .tl-title{
     letter-spacing: 1px;
-    font-size: 1.3rem;
+    font-size: 1.3em;
     color: #002333;
     text-transform: uppercase;
-}
+}*
 .tl-title-2{
+
     letter-spacing: 1px;
-    font-size: 1.3rem;
-    color: #2D9CDB;
-    text-transform: uppercase;
+    font-size: 1.3em;
+    color: #000;
+}
+.point{
+    font-size: 40px;
+    border-radius: 50%;
 }
 
+/*
 .tl-content{
     border-left: 1px solid #ccc;
     padding-left: 2rem;
     position: relative;
     padding-bottom: 2rem;
 }
+*/
 
+/*
 .tl-title-2::before{
     content: "";
     position: absolute;
@@ -242,6 +248,7 @@ body{
     transform: translateX(-50%);
     left: 0;
 }
+*/
 
 /*Media Querries*/
 @media screen and (max-width:823px){
