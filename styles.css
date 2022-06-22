@@ -28,7 +28,9 @@ body{
     background-color: #f7f7f7;
     height: 100%;
 }
-
+.titre-left{
+    background-color: #252a30;
+}
 
 .left-content{
     padding: 2rem 3rem;
@@ -39,7 +41,8 @@ body{
 }
 
 .image{
-    width: 100%;
+    width: 230px;
+    height: 320px;
     text-align: center;
 }
 .profile img{
@@ -171,6 +174,10 @@ body{
     color: black;
     margin-bottom: 1.2rem;
     position: relative;
+    margin: auto;
+}
+.hmarg{
+    margin-bottom: 17px;
 }
 
 /*
@@ -213,15 +220,14 @@ body{
 
 .tl-title{
     letter-spacing: 1px;
-    font-size: 1.3em;
-    color: #002333;
-    text-transform: uppercase;
-}*
-.tl-title-2{
-
-    letter-spacing: 1px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #000;
+}
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    color: #000;
+    margin-top: 10px;
 }
 .point{
     font-size: 40px;
@@ -255,6 +261,10 @@ body{
     .right-title::after{
         width: 40%;
     }
+    .main-content{
+        min-height: 270vh;
+       
+    }
 }
 @media screen and (max-width:681px){
     .right-title::after{
@@ -287,8 +297,90 @@ body{
         width: 60%;
     }
 }
+@media screen and (max-width:768px){
+    .main-content{
+        min-height: 300vh;
+    }
+}
 @media screen and (max-width:390px){
+    .comp{
+        display: table-footer-group;
+    }
     .name{
         font-size: 1.5rem;
     }
+    .tl-title-2{
+        font-size: 1rem;
+    }
+    .tl-title{
+        font-size: 1.3em;
+    }
 }
+@media screen and (max-width:320px){
+    .comp{
+        display: table-footer-group;
+    }
+    .name{
+        font-size: 1.5rem;
+    }
+    .tl-title-2{
+        font-size: 1rem;
+    }
+    .tl-title{
+        font-size: 1.3em;
+    }
+}
+@media screen and (width:414px){
+    .comp{
+        display: table-footer-group;
+    }
+    .name{
+        font-size: 1.5rem;
+    }
+    .tl-title-2{
+        font-size: 1rem;
+    }
+    .tl-title{
+        font-size: 1.3em;
+    }
+}
+@media screen and (width:393px){
+    .tl-title-2{
+        font-size: 15px;
+    }
+    .comp{
+        display: table-footer-group;
+    }
+}
+@media screen and (width:412px){
+    .tl-title-2{
+        font-size: 15px;
+    }
+    .comp{
+        display: table-footer-group;
+    }
+    .main-content{
+        min-height: 490vh;
+       
+    }
+}
+@media screen and (width:540px){
+    .tl-title-2{
+        font-size: 15px;
+    }
+    .comp{
+        display: table-footer-group;
+    }
+    .main-content{
+        min-height: 500vh; 
+    }
+
+}
+@media screen and (width:912px){
+    .main-content{
+        min-height: 200vh;
+    }
+
+}
+    
+    
